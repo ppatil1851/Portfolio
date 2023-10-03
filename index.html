@@ -16,7 +16,18 @@
     h6 {
         font-family: "Montserrat", sans-serif
     }
-    
+    .google-map {
+        padding-bottom: 50%;
+        position: relative;
+      }
+      
+    .google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+      }
     .w3-row-padding img {
         margin-bottom: 12px;
         background-image: url('./images/bg.jpg')
@@ -218,7 +229,9 @@
             </div>
 
             <!-- Image of location/map -->
-            <img src="./images/map.png" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1612512.1042362705!2d-123.73971127536707!3d37.87344532383445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808583a3a688d7b5%3A0x8c891b8457461fa9!2sSan%20Francisco%20Bay%20Area%2C%20CA!5e0!3m2!1sen!2sus!4v1696361204438!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             <!-- End Contact Section -->
         </div>
 
